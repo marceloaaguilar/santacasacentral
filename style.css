@@ -377,6 +377,20 @@ a {
     width: 5rem
 }
 
+#descontos{
+    margin-top: 4rem;
+}
+#descontos > h4{
+    font-weight: 600;
+}
+
+.imgDesconto{
+    width: 7rem ;
+    height: 7rem;
+    object-fit: contain;
+}
+
+
 @media screen and (max-width: 768px)  {
 
     #phoneLinks{
@@ -474,6 +488,19 @@ a {
 
     #logoFooter{
         padding-top: 2rem;
+    }
+
+    .imgDesconto{
+        width: 12rem;
+        height: 7rem;
+        object-fit: contain;
+        margin: 0;
+    }
+
+    #descontosContent{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 
 }
