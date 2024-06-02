@@ -494,9 +494,15 @@ a {
         width: 12rem;
         height: 7rem;
         object-fit: contain;
-        margin: 0;
     }
 
+    #descontos{
+        text-align: center;
+    }
+    
+    #descontosImgs{
+        justify-content: center;
+    }
     #descontosContent{
         display: flex;
         flex-direction: column;
