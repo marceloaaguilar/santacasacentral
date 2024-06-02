@@ -269,7 +269,7 @@ a {
 }
 
 #orcamento{
-    background: url('/images/pexels-pixabay-210402.jpg'), no-repeat;
+    background: url('images/pexels-pixabay-210402.jpg'), no-repeat;
     background-size: cover;
     height: 15rem;
     background-position: 20% 70%;
