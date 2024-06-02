@@ -1,0 +1,479 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#phoneLinks{
+    background-color: #008AFC;
+    font-weight: 700;
+    color: #FFFFFF;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+.fa-whatsapp, .fa-phone{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 0.4rem;
+}
+
+#contactLinks{
+    display: flex;
+}
+
+#btnPhone{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem 1rem 5rem;
+    gap: 4rem;
+}
+
+.navbar-brand{
+    max-width: 15rem;
+}
+
+.nav-link{
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid #008AFC;
+}
+
+#navbarLinks{
+    font-size: 1rem;
+    font-weight: 700;
+    width: 80%;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header{
+    position: relative;
+    display: flex;
+    height: 35rem;
+    background: url('/images/portrait-people-hugging-each-other-honor-hugging-day-celebration.jpg');
+    background-size: cover;
+    opacity: 100%;
+    background-position: 60% 40%;
+    align-items: flex-end;
+    justify-content: center;
+    color: #FFFFFF;
+    
+}
+
+#header:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(0,0,0,0), black);
+}
+
+#headerSection{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#thanks:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(0,0,0,0), black);
+}
+
+#thanks{
+    position: relative;
+    display: flex;
+    height: 35rem;
+    background: url('/images/pexels-angele-j-35172-192997.jpg');
+    background-size: cover;
+    opacity: 100%;
+    background-position: 60% 40%;
+    align-items: flex-end;
+    justify-content: center;
+    color: #FFFFFF;
+    
+}
+
+#thanksSection{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+}
+
+
+#text{
+    text-align: center;
+    line-height: 10px;
+    z-index: 1;
+    padding-bottom: 2rem
+}
+
+#header h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#header span{
+   font-weight: 300;
+}
+
+#planosSection{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding-bottom: 4rem;
+}
+
+#planos{
+    padding-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+#planos > h3{
+    font-weight: 600;
+}
+
+#cardsPlanos{
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.cardPlano{
+    padding-top: 1rem;
+    width: 13rem;
+    height: 22rem;
+    color: #FFFFFf;
+    border-radius: 20px;
+    line-height: 15px;
+}
+
+.cardPlano > h4 {
+    font-weight: 600;
+}
+
+#cardPlanoBronze{
+    background-color: #C97640;
+}
+
+#cardPlanoPrata{
+    background-color: #939393;
+}
+
+#cardPlanoOuro{
+    background-color: #C7AA1C;
+}
+
+#cardPlanoRubi{
+    background-color: #FF4040;
+}
+
+#cardPlanoDiamante{
+    background-color: #008AFC;
+}
+
+
+.cardPlano > span{
+    font-size: 0.8rem;
+}
+
+#prices{
+    margin-top: 2rem;
+}
+
+#price > h4{
+    font-size: 2rem;
+    margin-top: 0.2rem;
+    font-weight: 700;
+}
+
+#nossosServicosSection{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#nossosServicos{
+    justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.serviceCard{
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+}
+
+.serviceCard > p{
+    margin: 0;
+    text-align: left;
+}
+
+
+#nossosServicosSection > h3 {
+    font-weight: 600;
+}
+.icon-service{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 20px;
+    
+}
+
+#aboutUsSection{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#aboutUsContent{
+    text-align: left;
+    margin-top: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#aboutUs > h4{
+    font-weight: 600;
+}
+
+#aboutUsContent > .col > .img-fluid{
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    object-position: 70% 10%;
+}
+
+#imgCemiterio{
+    width: 100%;
+    height: 14rem;
+    object-position: 50% 70% !important;
+    object-fit: cover !important;
+}
+
+#orcamento{
+    background: url('/images/pexels-pixabay-210402.jpg'), no-repeat;
+    background-size: cover;
+    height: 15rem;
+    background-position: 20% 70%;
+    align-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    opacity: 100%;
+}
+
+#orcamento:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15rem;
+    background: linear-gradient(180deg, rgba(0,0,0,0), black);
+}
+
+#orcamento > #text{
+    position: relative;
+    line-height: 20px;
+    z-index: 1;
+    padding: 0;
+}
+
+#orcamentoBtn{
+    background-color: none;
+    color: white;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+#orcamentoBtn:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#contatoSection{
+    margin-top: 4rem;
+}
+
+#contato{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactTitle{
+    font-weight: 600;
+}
+
+.btn-whatsapp{
+    background-color: green;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.btn-whatsapp:hover{
+    background-color: #FFFFFF;
+    color: green;
+    border: 2px solid green;
+}
+
+#infoContato{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 10px;
+}
+
+#lineFooter{
+    margin-top: 4rem;
+    background-color: #008AFC;
+    width: 100%;
+    height: 0.4rem;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(75, 75, 75);
+    height: 12rem;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+#logoFooter{
+    width: 20rem;
+}
+
+#linksFooter > ul > li{
+    list-style: none;
+}
+
+#sectionFooter{
+    text-align: center;
+}
+
+#whatsappImg{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 5rem
+}
+
+@media screen and (max-width: 768px)  {
+
+    #phoneLinks{
+        flex-direction: column;
+        height: 6rem;
+        font-size: 1rem;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .fa-whatsapp, .fa-phone{
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+    }
+    
+    .navbar{
+        padding: 0;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #navbarSantaCasa{
+        background-color: #008AFC;
+        padding: 1rem 4rem 2rem 4rem;
+        font-weight: 700;
+    }
+
+    .nav-link{
+        color: #FFFFFF;
+    }
+
+    #header > #text{
+        padding: 1rem 1rem 2rem 1rem;
+        justify-content: center;
+        text-align: left;
+    }
+
+    #header > #text > span{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    #cardsPlanos{
+        justify-content: center;
+    }
+
+    .cardPlano{
+        width: 20rem;
+        height: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .cardPlano > #prices{
+        padding-bottom: 1rem;
+    }
+
+    #nossosServicos{
+        gap: 0;
+    }
+
+    #aboutUsContent > div > .img-fluid{
+        margin-bottom: 1rem;
+    }
+
+    #orcamento {
+        height: 25rem;
+    }
+
+    #orcamento > #text{
+        padding: 1rem;
+    }
+
+    #infoContato{
+        line-height: 25px;
+    }
+    .btn-whatsapp{
+        margin-bottom: 2rem;
+    }
+
+    #infoContato{
+        line-height: 25px;
+    }
+
+    #footer{
+        gap: 0;
+        height: 100%;
+        padding: 0;
+    }
+
+    #copyrightText{
+        font-size: 0.7rem;
+    }
+
+    #logoFooter{
+        padding-top: 2rem;
+    }
+
+}
