@@ -67,7 +67,7 @@ a {
     position: relative;
     display: flex;
     height: 35rem;
-    background: url('/images/portrait-people-hugging-each-other-honor-hugging-day-celebration.jpg');
+    background: url('images/home1.jpg');
     background-size: cover;
     opacity: 100%;
     background-position: 60% 40%;
@@ -105,7 +105,7 @@ a {
     position: relative;
     display: flex;
     height: 35rem;
-    background: url('/images/pexels-angele-j-35172-192997.jpg');
+    background: url('images/pexels-angele-j-35172-192997.jpg');
     background-size: cover;
     opacity: 100%;
     background-position: 60% 40%;
