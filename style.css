@@ -385,7 +385,7 @@ a {
 }
 
 .imgDesconto{
-    width: 7rem ;
+    width: 6.7rem ;
     height: 7rem;
     object-fit: contain;
 }
@@ -494,6 +494,7 @@ a {
         width: 12rem;
         height: 7rem;
         object-fit: contain;
+        margin-top: 2rem;
     }
 
     #descontos{
