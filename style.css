@@ -151,15 +151,19 @@ a {
     font-weight: 600;
 }
 
+#planos >span{
+    font-size: 1.2rem;
+}
+
 #cardsPlanos{
     justify-content: space-between;
     margin-top: 2rem;
 }
 
 .cardPlano{
-    padding-top: 1rem;
+    padding: 2rem;
     width: 13rem;
-    height: 22rem;
+    height: 100%;
     color: #FFFFFf;
     border-radius: 20px;
     line-height: 15px;
@@ -374,7 +378,8 @@ a {
     position: fixed;
     bottom: 10px;
     right: 20px;
-    width: 5rem
+    width: 5rem;
+    z-index: 10000;
 }
 
 #descontos{
@@ -451,6 +456,8 @@ a {
 
     #nossosServicos{
         gap: 0;
+        padding: 0;
+        justify-content: left;
     }
 
     #aboutUsContent > div > .img-fluid{
