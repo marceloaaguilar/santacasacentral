@@ -33,7 +33,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 5rem 1rem 50rem;
+    padding: 1rem 5rem 1rem 5rem;
     gap: 4rem;
     border-bottom: 5px solid #008AFC;
 }
@@ -113,6 +113,7 @@ a {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    
 }
 
 #thanksSection{
@@ -438,7 +439,7 @@ a {
         flex-direction: column;
         font-size: 1rem;
         justify-content: center;
-        padding: 0;
+        padding: 1rem;
         margin: 2rem 0 1rem 0
     }
 
@@ -556,9 +557,5 @@ a {
     #descontText{
         line-height: 2rem;
         font-size: 1.5rem;
-    }
-    
-    #thanks{
-        height: 100vh;
     }
 }   
