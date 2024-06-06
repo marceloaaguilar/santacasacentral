@@ -27,24 +27,6 @@
     <meta property="og:image:secure_url" content="images/logos/scc_edited.webp" /> 
   </head>
     <body>
-      <div id="phoneLinks">
-        <span>Atendimento 24h</span>
-        <div id="contactLinks">
-          <div id="whatsappPhone">
-            <a target="_blank" id="btnPhone" href="https://wa.me/5521975766577">
-              <i class="fa-brands fa-whatsapp"></i>
-              <span>(21) 97576-6577</span>
-            </a>
-          </div>
-  
-          <div id="phone"></div>
-            <a target="_blank" id="btnPhone" href="tel:+55 21 3798-3008">
-              <i class="fa-solid fa-phone"></i>
-              <span>(21) 3798-3008</span>
-            </a>
-        </div>
-      </div>
-
       <div id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" >
           <a class="navbar-brand" href="/">
@@ -96,8 +78,12 @@
 
       <section id="planosSection">
         <div id="planos" class="container">
-          <h3>Planos de Assistência Funeral</h3>
-          <span>Confira nossos planos <b> a partir de R$ 9,99</b></span>
+          <h3 id="planosTitle">Planos de Assistência Funeral</h3>
+          <div id="divider"></div>
+          <div id="values">
+            <p id="descontText">Confira nossos planos a partir de</p>
+            <p id="valorPlano">R$ 0,99</p>
+          </div>
           <div id="cardsPlanos" class="row">
 
             <div id="cardPlanoBronze" class="col-auto cardPlano">
@@ -301,9 +287,22 @@
           </div>
 
           <div class="col-auto" id="linksFooter">
-            <div id="infoContato">
-              <p><b>Nossos Telefones: </b> (21) 3798-3008 | (21) 975766577</p>
-              <p><b>Endereço: </b> Rua Silva Cardoso, 664 - Bangu, Rio de Janeiro - RJ</p>
+            <div id="phoneLinks">
+              <span>Atendimento 24h</span>
+              <div id="contactLinks">
+                <div id="whatsappPhone">
+                  <a target="_blank" id="btnPhone" href="https://wa.me/5521975766577">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>(21) 97576-6577</span>
+                  </a>
+                </div>
+        
+                <div id="phone"></div>
+                  <a target="_blank" id="btnPhone" href="tel:+55 21 3798-3008">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(21) 3798-3008</span>
+                  </a>
+              </div>
             </div>
           </div>
 
@@ -323,16 +322,16 @@
               <form action="">
                 <div class="mb-3">
                   <label for="recipient-name" class="col-form-label">Nome:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+                  <input type="text" required class="form-control" id="recipient-name">
                 </div>
                 <div class="mb-3">
                   <label for="phoneNumber" class="col-form-label">Telefone:</label>
-                  <input class="form-control" id="phoneNumber"></input>
+                  <input class="form-control" required id="phoneNumber"></input>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-whatsapp">Enviar</button>
+              <button type="button" id="btnModalWhatsapp" class="btn btn-whatsapp">Enviar</button>
             </div>
           </div>
         </div>
@@ -348,6 +347,10 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script> new WOW().init();</script>
 
+      <script src="script.js"></script>
+
+       <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
 </html>
 
