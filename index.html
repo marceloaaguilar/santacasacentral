@@ -17,20 +17,23 @@
     <!-- WOW JS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-    <link rel='icon' type='image/png' href='images/logos/scc_edited.webp'>
+    <link rel='icon' type='image/png' href='/images/logos/scc_edited.webp'>
     
+    <!-- Mask -->
+    <script src="https://unpkg.com/imask"></script>
+
     <!--Open Graph Tags-->
     <meta property="og:title" content="Santa Casa Central - Assistência Funerária" />
     <meta property="og:description" content="Serviços funerários com os melhores preços e melhores condições de pagamento em até 10x sem juros" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="images/logos/scc_edited.webp" />
-    <meta property="og:image:secure_url" content="images/logos/scc_edited.webp" /> 
+    <meta property="og:image" content="/images/logos/scc_edited.webp" />
+    <meta property="og:image:secure_url" content="/images/logos/scc_edited.webp" /> 
   </head>
     <body>
       <div id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" >
           <a class="navbar-brand" href="/">
-            <img src="images/logos/scc_edited.webp" id="logoSantaCasa" class="img-fluid" alt="Logo Santa Casa Central">
+            <img src="/images/logos/scc_edited.webp" id="logoSantaCasa" class="img-fluid" alt="Logo Santa Casa Central">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSantaCasa" aria-controls="navbarSantaCasa" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -72,7 +75,7 @@
       
       <div id="whatsappBtn">
         <a data-bs-toggle="modal" data-bs-target="#modalWhatsapp" href="">
-          <img src="images/whatsapp_logo_icon_147205.png"  id="whatsappImg" alt="">
+          <img src="/images/whatsapp_logo_icon_147205.png"  id="whatsappImg" alt="">
         </a>
       </div>
 
@@ -108,12 +111,11 @@
 
             <div id="cardPlanoDiamante" class="col-auto cardPlano">
               <h4>Diamante</h4>
-              <span>Contempla Urna: <br> Redonda com alça varão</span>
+              <span>Contempla Urna: <br> Canaã com alça varão</span>
             </div>
           </div>
-
         </div>
-
+        <button class="btn btn-whatsapp mt-4" data-bs-toggle="modal" data-bs-target="#modalWhatsapp" > Fale Conosco</button>
       </section>
 
       <section id="nossosServicosSection" class="container">
@@ -122,55 +124,55 @@
         <div id="nossosServicos" class="row wow animate__animated animate__zoomIn">
           <div class="col-auto">
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/flor.png">
+              <img class="img-fluid icon-service" src="/images/icons/flor.png">
               <p>Ornamentação de Flores Naturais</p>
             </div>  
 
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/coroaFlores.png">
+              <img class="img-fluid icon-service" src="/images/icons/coroaFlores.png">
               <p>Coroa de Flores</p>
             </div>  
 
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/licenciamento.png">
+              <img class="img-fluid icon-service" src="/images/icons/licenciamento.png">
               <p>Serviço de Despachante</p>
             </div>
 
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/cinzas.png">
+              <img class="img-fluid icon-service" src="/images/icons/cinzas.png">
               <p>Cremação</p>
             </div>
             
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/caixao.png">
+              <img class="img-fluid icon-service" src="/images/icons/caixao.png">
               <p>Urnas Zincadas para translado</p>
             </div>
 
           </div>
           <div class="col-auto" >
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/medical.png">
+              <img class="img-fluid icon-service" src="/images/icons/medical.png">
               <p>Tanatopraxia</p>
             </div>  
 
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/licenciamento.png">
+              <img class="img-fluid icon-service" src="/images/icons/licenciamento.png">
               <p>Remoção</p>
             </div>
 
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/enterro.png">
+              <img class="img-fluid icon-service" src="/images/icons/enterro.png">
               <p>Sepultamento</p>
             </div>
             
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/papel-higienico.png">
+              <img class="img-fluid icon-service" src="/images/icons/papel-higienico.png">
               <p>Higienização</p>
             </div>
 
             <div class="serviceCard">
-              <img class="img-fluid icon-service" src="images/icons/carro-funebre.png">
-              <p>Translado Nacional</p>
+              <img class="img-fluid icon-service" src="/images/icons/carro-funebre.png">
+              <p>Translado</p>
             </div>
 
           </div>
@@ -185,9 +187,10 @@
             <div class="col-lg-6">
               <h4>Bem vindo à Santa Casa Central</h4>
               <p>Bem-vindo à Santa Casa Central, uma empresa dedicada a proporcionar amparo e conforto aos nossos clientes em momentos delicados. Atuamos no Rio de Janeiro com o objetivo principal de oferecer um serviço completo e humanizado, adaptado às necessidades de cada um. Nossa missão é estar ao seu lado, oferecendo apoio e soluções que façam a diferença.</p>
+              <button class="btn btn-whatsapp mt-2" data-bs-toggle="modal" data-bs-target="#modalWhatsapp" > Fale Conosco</button>
             </div>
             <div class="col-lg-6">
-              <img src="images/adult-woman-hugging-her-husband.jpg" class="img-fluid" alt="">
+              <img src="/images/adult-woman-hugging-her-husband.jpg" class="img-fluid" alt="">
             </div>
           </div>
 
@@ -195,11 +198,12 @@
 
           <div id="aboutUsContent" class="row wow animate__animated animate__fadeInUp">
             <div class="col-lg-6">
-              <img src="images/covid-recovery-center-female-doctor-holding-elder-patient-s-hands.jpg" class="img-fluid" alt="">
+              <img src="/images/covid-recovery-center-female-doctor-holding-elder-patient-s-hands.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6">
               <h4>Nossos Valores</h4>
               <p>A Santa Casa Central se orgulha de oferecer valores justos e acessíveis, com planos que cabem no bolso e atendem às necessidades individuais de cada cliente. Acreditamos que todos devem ter acesso a serviços funerários de qualidade, e trabalhamos incansavelmente para tornar isso possível.</p>
+              <button class="btn btn-whatsapp mt-2" data-bs-toggle="modal" data-bs-target="#modalWhatsapp" > Fale Conosco</button>
             </div>
           </div>
 
@@ -209,9 +213,10 @@
             <div class="col-lg-6">
               <h4>Serviços Exclusivos</h4>
               <p>Oferecemos uma gama de benefícios exclusivos e os melhores preços do mercado em planos funerários. Com a Santa Casa Central, você encontrará não apenas preços competitivos, mas também um atendimento personalizado e dedicado.</p>
+              <button class="btn btn-whatsapp mt-2" data-bs-toggle="modal" data-bs-target="#modalWhatsapp" > Fale Conosco</button>
             </div>
             <div class="col-lg-6">
-              <img src="images/pexels-matthiasgroeneveld-19783589.jpg" id="imgCemiterio" class="img-fluid" alt="">
+              <img src="/images/pexels-matthiasgroeneveld-19783589.jpg" id="imgCemiterio" class="img-fluid" alt="">
             </div>
           </div>
         </div>
@@ -231,19 +236,19 @@
             <div class="col-lg-8 wow animate__animated animate__backInLeft">
               <div class="row" id="descontosImgs">
                 <div class="col-lg-12">
-                  <img src="images/logos/og-image-logo.png" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/UCI_BRASIL_logo.jpg" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/droga-raia-logo.png" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/drogasmil.png" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/netshoes.png" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/cropped-Logo-Norte-GRILL-VETOR-com-sombra-e1560126309484-1.png" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/og-image-logo.png" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/UCI_BRASIL_logo.jpg" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/droga-raia-logo.png" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/drogasmil.png" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/netshoes.png" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/cropped-Logo-Norte-GRILL-VETOR-com-sombra-e1560126309484-1.png" class="img-fluid imgDesconto" alt="">
                 </div>
                 <div class="col-lg-12">
-                  <img src="images/logos/dominos.png" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/logo-petz-primary.svg" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/hoteis.com-logo.png" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/bronstein.svg" class="img-fluid imgDesconto" alt="">
-                  <img src="images/logos/logoSergioFranco.png" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/dominos.png" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/logo-petz-primary.svg" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/hoteis.com-logo.png" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/bronstein.svg" class="img-fluid imgDesconto" alt="">
+                  <img src="/images/logos/logoSergioFranco.png" class="img-fluid imgDesconto" alt="">
                   E muito mais...
                 </div>
               </div>
@@ -267,7 +272,7 @@
                 <!-- <p><b>Nossos Telefones: </b> (21) 3798-3008 <br> (21) 975766577</p> -->
                 <p><b>Endereço: </b> Rua Silva Cardoso, 664 - Bangu, Rio de Janeiro - RJ</p>
               </div>
-              <button class="btn btn-whatsapp" > Entrar em contato</button>
+              <button class="btn btn-whatsapp" data-bs-toggle="modal" data-bs-target="#modalWhatsapp" > Entrar em contato</button>
 
             </div>
             <div class="col-lg-6">
@@ -282,26 +287,25 @@
       <div id="lineFooter"></div>
       <section id="sectionFooter" class="container">
         <div id="footer" class="row">
-          <div class="col-auto">
-            <img src="images/logos/scc_edited.webp" class="img-fluid" id="logoFooter">
+          <div class="col-sm-12 col-lg-6">
+            <img src="/images/logos/scc_edited.webp" class="img-fluid" id="logoFooter">
           </div>
 
-          <div class="col-auto" id="linksFooter">
-            <div id="phoneLinks">
-              <span>Atendimento 24h</span>
-              <div id="contactLinks">
-                <div id="whatsappPhone">
-                  <a target="_blank" id="btnPhone" href="https://wa.me/5521975766577">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <span>(21) 97576-6577</span>
-                  </a>
-                </div>
-        
-                <div id="phone"></div>
-                  <a target="_blank" id="btnPhone" href="tel:+55 21 3798-3008">
-                    <i class="fa-solid fa-phone"></i>
-                    <span>(21) 3798-3008</span>
-                  </a>
+          <div class="col-sm-12 col-lg-6" id="linksFooter">
+            <span>Atendimento 24h</span>
+            <div id="contactLinks" class="row">
+              <div id="whatsappPhone" class="col-auto">
+                <a target="_blank" id="btnPhone" href="https://wa.me/5521975766577">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>(21) 97576-6577</span>
+                </a>
+              </div>
+      
+              <div id="phone" class="col-auto">
+                <a target="_blank" id="btnPhone" href="tel:+55 21 3798-3008">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>(21) 3798-3008</span>
+                </a>
               </div>
             </div>
           </div>
@@ -350,7 +354,8 @@
       <script src="script.js"></script>
 
        <!-- Sweet Alert -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     </body>
 </html>
 
